@@ -32,7 +32,7 @@ This project has not been licensed - Copying the Original Source Code & modifyin
 * Rashmi Ma'am for permitting me to create my own calculator.
 
 
-## Contributing
+## Want To Contribute?
 
 Positive contributions of all kinds are wholeheartedly welcome. A few examples of what qualifies as 'Positive Contributions' is as follows:
 - new criterias & carbon factors
