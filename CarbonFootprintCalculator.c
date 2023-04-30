@@ -2,11 +2,11 @@
 
 int main(){
     int FamMem, start;
-    float ac, Electricity, TV, internet, solarenergy;                                            //Domestic electricity related consumption
-    float NGP, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
-    float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, ro, water, cookingoil; //Food consumption
-    float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle;
-    float sharing, CarbonFootprint, score;
+    int ac, Electricity, TV, internet, solarenergy;                                            //Domestic electricity related consumption
+    int NGP, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
+    int beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, ro, water, cookingoil; //Food consumption
+    int motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle;
+    int sharing, CarbonFootprint, score;
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* !Welcome to YACFC - Yash Anand's Carbon Footprint Calculator! *\n");
@@ -24,7 +24,7 @@ int main(){
 
     printf("So - are you ready to learn about your CO2/KG emissions? If so, Please press any number to start!\n");
     scanf("%d", &start);
-    
+
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 1: Domestic Energy Consumption! Press Any Number To start *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
@@ -35,6 +35,7 @@ int main(){
 
     printf("\nQ2. How much AIR CONDITIONER do you use kWh/month?\n");
     scanf("%f", &ac);
+    printf("The C02 Emmision of your consumption is %d\n", ac * 0.936);
     
     printf("\nQ3. How much ELECTRICITY do you use kWh/month?\n");
     scanf("%f", &Electricity);
