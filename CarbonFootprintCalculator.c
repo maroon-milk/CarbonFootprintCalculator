@@ -24,16 +24,7 @@ int main(){
 
     printf("So - are you ready to learn about your CO2/KG emissions? If so, Please press any number to start!\n");
     scanf("%d", &start);
-
-    // FAMILY MEMBERS - WORK IN PROGRESS
-    // printf("There are some consumptions like water, electricty, etc. for which a collective bill is generated for the entire family.\n);
-    // printf(This however, would not be an accurate representation of how much consumption YOU do individually in your family.\n");
-    // printf("To counter this, we are giving you an option of telling us the number of family members you have.\n);
-    // printf(This number will be used to divide the forementioned shared consumptions to find what your consumption *might be*.\n);
-    // printf("But we HIGHLY Recommend answering with 1 as the divided result would not be an accurate represntation of your consumption EITHER.\n\n");
-    // printf("Enter your total family members");
-    // scanf("%d", &FamMem);
-
+    
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 1: Domestic Energy Consumption! Press Any Number To start *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
