@@ -28,8 +28,9 @@ Simple 5 steps for using the calculators
 This project has not been licensed - Copying the Original Source Code & modifying it as needed is allowed. 
 
 ## Special Thanks To
-* Rashmi Ma'am
-* Karandeep Sir
+* Karandeep Sir for assigning this task of 'Carbon Footprints'. 
+* Rashmi Ma'am for permitting me to create my own calculator.
+
 
 ## Contributing
 
