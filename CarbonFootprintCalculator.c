@@ -39,12 +39,15 @@ int main(){
     
     printf("\nQ3. How much ELECTRICITY do you use kWh/month?\n");
     scanf("%f", &Electricity);
+    printf("The C02 Emmision of your consumption is %d\n", Electricity * 0.82);
 
     printf("\nQ4. How much TV do you use hour/month?\n");
     scanf("%f", &TV);
+    printf("The C02 Emmision of your consumption is %d\n", tv * 0.244;
 
     printf("\nQ5. In order to find your digital footprints, tell your internet usage in hour/month\n\n");
     scanf("%f", &internet);
+    printf("The C02 Emmision of your consumption is %d\n", internet * 0.006);
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 2: Resource Consumption! Press Any Number To start! *\n");
@@ -53,24 +56,31 @@ int main(){
     
     printf("\nQ6. How much gas/CNG do you consume from your Natural Gas Pipeline kWh/month?\n");
     scanf("%f", &NGP);
+    printf("The C02 Emmision of your consumption is %d\n", NGP * 0.2);
 
     printf("\nQ7. How much LPG do you consume kg/month?\n");
     scanf("%f", &LPG);
+    printf("The C02 Emmision of your consumption is %d\n", LPG * 1.5);
 
     printf("\nQ8. How much LPG for your vehicle do you consume kg/month?\n");
     scanf("%f", &LPGVEHC);  
+    printf("The C02 Emmision of your consumption is %d\n", LPGVEHC * 3.06);
 
     printf("\nQ9. How much Petrol do you consume litres/month?\n");
     scanf("%f", &petrol);
+    printf("The C02 Emmision of your consumption is %d\n", petrol * 2.33);
 
     printf("\nQ10. How much Diesel do you consume litres/month?\n");
     scanf("%f", &diesel);
+    printf("The C02 Emmision of your consumption is %d\n", diesel * 2.68);
 
-    printf("\nQ11. How much coal do you consume kg/month?\n");
+    printf("\nQ11. How much coal do you consume tonne/month?\n");
     scanf("%f", &coal);
+    printf("The C02 Emmision of your consumption is %d\n", coal * 2750);
 
     printf("\nQ12. How much water do you use litres/month?\n");
     scanf("%f", &water);
+    printf("The C02 Emmision of your consumption is %d\n", water * 0.011);
     
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 3: Food Consumption! Press Any Number To start! *\n");
@@ -79,36 +89,47 @@ int main(){
 
     printf("\nQ13. How much beef do you consume kg/month?\n");
     scanf("%f", &beef);
+    printf("The C02 Emmision of your consumption is %d\n", beef * 27);
 
     printf("\nQ14. How much chicken do you consume kg/month?\n");
     scanf("%f", &chicken);
+    printf("The C02 Emmision of your consumption is %d\n", chicken * 6.9);
 
     printf("\nQ15. How many eggs do you consume kg/month?\n");
     scanf("%f", &egg);
+    printf("The C02 Emmision of your consumption is %d\n", egg * 0.9);
 
     printf("\nQ16. How much fish do you consume kg/month?\n");
     scanf("%f", &fish);
+    printf("The C02 Emmision of your consumption is %d\n", fish * 3.3);
 
     printf("\nQ17. How much mutton do you consume kg/month?\n");
     scanf("%f", &mutton);
+    printf("The C02 Emmision of your consumption is %d\n", mutton * 39.2);
 
     printf("\nQ18. How much pork do you consume kg/month?\n");
     scanf("%f", &pork);
+    printf("The C02 Emmision of your consumption is %d\n", pork * 7.6);
 
     printf("\nQ19. How much vegetables do you consume kg/month?\n");
     scanf("%f", &veg);
+    printf("The C02 Emmision of your consumption is %d\n", veg * 0.5);
 
     printf("\nQ20. How much milk do you consume kg/month?\n");
     scanf("%f", &milk);
+    printf("The C02 Emmision of your consumption is %d\n", milk * 0.91);
 
     printf("\nQ21. How much food do you waste kg/month?\n");
     scanf("%f", &foodwastage);
+    printf("The C02 Emmision of your consumption is %d\n", foodwastage * 0.61);
 
     printf("\nQ22. How much water do you consume from your RO litres/month?\n");
     scanf("%f", &ro);
+    printf("The C02 Emmision of your consumption is %d\n", ro * 0.72);
 
     printf("\nQ23. How much cooking oil do you consume litres/month?\n\n");
     scanf("%f", &cookingoil);
+    printf("The C02 Emmision of your consumption is %d\n", cookingoil * 3.02);
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 4: Traveling! Press Any Number To start! *\n");
@@ -117,24 +138,31 @@ int main(){
 
     printf("\nQ24. How much do you travel by motorcycle km/month?\n");
     scanf("%f", &motorcycle);
+    printf("The C02 Emmision of your consumption is %d\n", motorcycle * 0.08);
 
     printf("\nQ25. How much do you travel by aeroplane km/month?\n");
     scanf("%f", &aeroplane);
+    printf("The C02 Emmision of your consumption is %d\n", aeroplane * 0.184);
 
     printf("\nQ26. How much do you travel by bus km/month?\n");
     scanf("%f", &bus);
+    printf("The C02 Emmision of your consumption is %d\n", bus * 0.09);
 
     printf("\nQ27. How much do you travel by train km/month?\n");
     scanf("%f", &train);
+    printf("The C02 Emmision of your consumption is %d\n", train * 0.04);
 
     printf("\nQ28. How much do you travel by autorickshaw km/month?\n");
     scanf("%f", &autorickshaw);
+    printf("The C02 Emmision of your consumption is %d\n", autorickshaw*0.04);
 
     printf("\nQ29. How much do you travel by car km/month?\n");
     scanf("%f", &car);
+    printf("The C02 Emmision of your consumption is %d\n", car * 0.15);
 
     printf("\nQ30. Do you use bicycle from travelling in a month?\nPress 1 for Yes & 0 for No.\n");
     scanf("%f", &bicycle);
+    printf("The C02 Emmision of your consumption is %d\n", bicycle * 0.125);
 
     CarbonFootprint = ((ac * 0.936) + (Electricity * 0.82) + (TV * 0.00048) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
 
