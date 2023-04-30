@@ -9,15 +9,20 @@
 
 ### Getting Started
 Simple 5 steps for using the calculators
+
 * 
+
 * 
+
 *
+
 * 
+
 *
 
 ## Author
 * Yash Anand  
-* https://www.linkedin.com/in/anand11yash/
+* [LinkedIn)(https://www.linkedin.com/in/anand11yash/)
 
 ## License
 This project has not been licensed - Copying the Original Source Code & modifying it as needed is allowed. 
