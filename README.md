@@ -7,7 +7,7 @@
 
 * A GitHub account.
 
-### Getting Started
+### Guide
 Simple 5 steps for using the calculators
 
 * 
