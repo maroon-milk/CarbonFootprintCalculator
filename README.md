@@ -1,7 +1,7 @@
 # Carbon Footprint Calculator by Yash Anand
 
 ## Description
-
+[Documentation: Carbon Footprint](https://docs.google.com/document/d/1xQreU8kJKfRYXW_cn7ZiehrpI8U7v7ijtbIAWY4w9xc/edit#)
 
 ### Prerequisites
 
