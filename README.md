@@ -1,4 +1,5 @@
-# Carbon Footprint Calculator by Yash Anand
+# Carbon Footprint Calculator
+by Yash Anand
 
 ## Description
 As a part of 'Task 5: Carbon Footprints', we were asked to find out Carbon Footprints & calculate them. We had been asked to use online tools available - preferably OpenSource tools - to calculate our Carbon emissions and document them. However when I was using them, I realised that the criterias being used for these calculations, were very limited and would often exclude major carbon emitting activites such as meat consumption, food wastage, access to solar energy, etc.
