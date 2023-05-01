@@ -164,7 +164,7 @@ int main(){
 
     printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
     printf("Press Any Number To Compare Your Result With India's Per Capita Carbon Footprint\n");
-    printf("for comparison, India's per capita carbon footprint in 2021 was 1900 Kg/month\n");
+    printf("for comparison, India's per capita carbon footprint in 2021 was 1900 Kg per YEAR & your carbon footprint per year was %f\n", CarbonFootprint * 12);
 
     printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n\nPress Any Number To Exit: ");
     scanf("%d", &start);
