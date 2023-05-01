@@ -8,9 +8,9 @@ int main(){
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle;
     float sharing, CarbonFootprint, score;
 
-    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* !Welcome to YACFC - Yash Anand's Carbon Footprint Calculator! *\n");
-    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
+    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
+    printf("* !Welcome to Yash Anand's Carbon Footprint Calculator! *\n");
+    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("Press any number to continue.\n");
     scanf("%d", &start);
 
@@ -74,7 +74,7 @@ int main(){
     scanf("%f", &coal);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", coal * 2750);
 
-    printf("\nQ12. How much water do you use as general usage litres/month?\n(This does not include drinking water)");
+    printf("\nQ12. How much water do you use as general usage litres/month?\n(This does not include drinking water)\n");
     scanf("%f", &water);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", water * 0.011);
     
@@ -163,45 +163,10 @@ int main(){
     CarbonFootprint = ((ac * 0.936) + (Electricity * 0.82) + (TV * 0.00048) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
 
     printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
-    printf("Press any number to be graded for your result.\n");
-    scanf("%d", &start);
+    printf("Press Any Number To Compare Your Result With India's Per Capita Carbon Footprint\n");
+    printf("for comparison, India's per capita carbon footprint in 2021 was 1900 Kg/month\n");
 
-    printf("\nKindly take you grading lightly as they are not an accurate representation of how much KG of CarbonFootprint qualifies as 'Good' or 'Bad'.\nYou scored: ");
-
-    if (CarbonFootprint < 500) {
-        printf("A+");
-    } else if (CarbonFootprint >= 500 && CarbonFootprint < 1000) {
-        printf("A");
-    } else if (CarbonFootprint >= 1000 && CarbonFootprint < 1500) {
-        printf("B+");
-    } else if (CarbonFootprint >= 1500 && CarbonFootprint < 2000) {
-        printf("B");
-    } else if (CarbonFootprint >= 2000 && CarbonFootprint < 2500) {
-        printf("C+");
-    } else if (CarbonFootprint >= 2500 && CarbonFootprint < 3000) {
-        printf("C");
-    } else if (CarbonFootprint >= 3500 && CarbonFootprint < 4000) {
-        printf("D+");
-    } else if (CarbonFootprint >= 4000 && CarbonFootprint < 4500) {
-        printf("D");
-    } else if (CarbonFootprint >= 4500 && CarbonFootprint < 5000) {
-        printf("E");
-    } else if (CarbonFootprint >= 5000) {
-        printf("FAILED");
-    }
-
-    printf("\n\nFor comparison, here is how other scores are graded:\n");
-    printf("A+  = Between 0500 & 1000\n");
-    printf("A   = Between 1000 & 1500\n");        
-    printf("B+  = Between 1500 & 2000\n");
-    printf("B   = Between 2000 & 2500\n");
-    printf("C+  = Between 2500 & 3000\n");
-    printf("C   = Between 3500 & 4000\n");
-    printf("D+  = Between 4000 & 4500\n");
-    printf("D   = Between 4500 & 5000\n");
-    printf("E   = More than 5000");
-
-    printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n\nPress Any Number To Exit.");
+    printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n\nPress Any Number To Exit: ");
     scanf("%d", &start);
     return 0;
 }
