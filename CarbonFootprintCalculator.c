@@ -41,7 +41,7 @@ int main(){
     scanf("%f", &TV);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", TV * 0.244);
 
-    printf("\nQ5. In order to find your digital footprints, tell your internet usage in hour/month\n\n");
+    printf("\nQ5. In order to find your digital footprints, tell your internet usage in hour/month\n");
     scanf("%f", &internet);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", internet * 0.006);
 
@@ -123,7 +123,7 @@ int main(){
     scanf("%f", &ro);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", ro * 0.72);
 
-    printf("\nQ23. How much cooking oil do you consume litres/month?\n\n");
+    printf("\nQ23. How much cooking oil do you consume litres/month?\n");
     scanf("%f", &cookingoil);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", cookingoil * 3.02);
 
