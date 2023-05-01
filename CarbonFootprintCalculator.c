@@ -37,9 +37,9 @@ int main(){
     scanf("%f", &Electricity);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", Electricity * 0.82);
 
-    printf("\nQ4. How much TV do you use hour/month?\n");
+    printf("\nQ4. How much TV do you use kWh/month?\n");
     scanf("%f", &TV);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", TV * 0.244);
+    printf("The C02 Emmision of your consumption is %f Kg/Month\n", TV * 0.3);
 
     printf("\nQ5. In order to find your digital footprints, tell your internet usage in hour/month\n");
     scanf("%f", &internet);
