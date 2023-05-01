@@ -8,8 +8,6 @@ All these important activities were being excluded which I believed meant that t
 
 A much more detailed explaination of how this whole project came out to be has been documented [here](https://docs.google.com/document/d/1xQreU8kJKfRYXW_cn7ZiehrpI8U7v7ijtbIAWY4w9xc/edit#). Additionally, a very simple and easy to understand guide has been provided below to allow everyone to use this calculator to calculate their Carbon Footprints in Kg/Month.
 
-P.S.: I assure you, if you get stuck somewhere in the guide, simply re-reading the listed steps will help you get started with the calculator. :)
-
 ### Prerequisites
 
 * A GitHub account.
@@ -20,9 +18,9 @@ Simple steps for using the calculators
 
 * Open 'CarbonFootprintCalculator.c' from the repository -> click on the 3 dots -> click GitHub.dev
 
-* In the left panel, click Remote Explorer -> Create a new codespace -> Select your storage ->
+* In the left panel, click Remote Explorer -> Create a new codespace -> Select your storage
 
-* Click on 'Install' when the promt pops up -> click on Run & Debug -> Start answering the questions 
+* Click on 'Install' when the promt pops up -> click on Run & Debug -> Use the calculator 
 
 ## Author
 * Yash Anand  
