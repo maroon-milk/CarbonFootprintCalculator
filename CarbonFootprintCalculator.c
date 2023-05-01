@@ -74,7 +74,7 @@ int main(){
     scanf("%f", &coal);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", coal * 2750);
 
-    printf("\nQ12. How much water do you use litres/month?\n");
+    printf("\nQ12. How much water do you use as general usage litres/month?\n(This does not include drinking water)");
     scanf("%f", &water);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", water * 0.011);
     
@@ -91,7 +91,7 @@ int main(){
     scanf("%f", &chicken);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", chicken * 6.9);
 
-    printf("\nQ15. How many eggs do you consume kg/month?\n");
+    printf("\nQ15. How many eggs do you consume kg/month?\n(1kg = 20 Eggs)");
     scanf("%f", &egg);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", egg * 0.9);
 
