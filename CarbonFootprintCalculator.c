@@ -11,7 +11,7 @@ int main(){
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* !Welcome to Yash Anand's Carbon Footprint Calculator! *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("Press any number to continue.\n");
+    printf("Press 1 to continue.\n");
     scanf("%d", &start);
 
     printf("\nThis calcutor was created because the pre-existing sites & calculators appeared to have a limitation with their criterias for calculating carbon footprints.\n\n");
@@ -19,11 +19,11 @@ int main(){
     printf("This lack of freedom to modify the criterias as per user's needs, would make the results incomplete and inaccurate.\n\n");
     printf("Finally, this is how the creation of YACFC came into being - which is an Indian based Carbon Footprint Calculator that welcomes all to make modifications to help make it even better.\n\n");
 
-    printf("\nSo - are you ready to learn about your CO2/KG emissions? If so, Please press any number to start!\n");
+    printf("\nSo - are you ready to learn about your CO2/KG emissions? If so, Please press 1 to start!\n");
     scanf("%d", &start);
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 1: Domestic Energy Consumption! Press Any Number To start *\n");
+    printf("* Round 1: Domestic Energy Consumption! Press 1 To start *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
 
     printf("\nQ1. Do you have access to Solar Energy?\nPress 1 for Yes & 0 for No.\n");
@@ -46,7 +46,7 @@ int main(){
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", internet * 0.006);
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 2: Resource Consumption! Press Any Number To start! *\n");
+    printf("* Round 2: Resource Consumption! Press 1 To start! *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     scanf("%d", &start);
     
@@ -79,7 +79,7 @@ int main(){
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", water * 0.011);
     
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 3: Food Consumption! Press Any Number To start! *\n");
+    printf("* Round 3: Food Consumption! Press 1 To start! *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     scanf("%d", &start);
 
@@ -91,7 +91,7 @@ int main(){
     scanf("%f", &chicken);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", chicken * 6.9);
 
-    printf("\nQ15. How many eggs do you consume kg/month?\n(1kg = 20 Eggs)");
+    printf("\nQ15. How many eggs do you consume kg/month?\n(1kg = 20 Eggs)\n");
     scanf("%f", &egg);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", egg * 0.9);
 
@@ -128,7 +128,7 @@ int main(){
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", cookingoil * 3.02);
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 4: Traveling! Press Any Number To start! *\n");
+    printf("* Round 4: Traveling! Press 1 To start! *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     scanf("%d", &start);
 
@@ -163,7 +163,8 @@ int main(){
     CarbonFootprint = ((ac * 0.936) + (Electricity * 0.82) + (TV * 0.00048) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
 
     printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
-    printf("Press Any Number To Compare Your Result With India's Per Capita Carbon Footprint\n");
+    printf("Press 1 To Compare Your Result With India's Per Capita Carbon Footprint\n");
+    scanf("%d", &start);
     printf("for comparison, India's per capita carbon footprint in 2021 was 1900 Kg per YEAR & your carbon footprint per year was %f\n", CarbonFootprint * 12);
 
     printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n\nPress Any Number To Exit: ");
