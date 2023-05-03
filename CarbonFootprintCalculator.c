@@ -25,7 +25,8 @@ int main(){
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 1: Domestic Energy Consumption! Press 1 To start *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-
+    scanf("%d", &start);
+    
     printf("\nQ1. Do you have access to Solar Energy?\nPress 1 for Yes & 0 for No.\n");
     scanf("%f", &solarenergy);
 
