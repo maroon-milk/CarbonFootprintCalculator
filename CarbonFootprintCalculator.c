@@ -2,7 +2,7 @@
 
 int main(){
     int FamMem, start;
-    float ac, newspaper, soap, Electricity, TV, geyser, fridge, laptop, internet, solarenergy;                                            //Domestic electricity related consumption
+    float ac, Electricity, TV, internet, solarenergy;                                            //Domestic electricity related consumption
     float NGP, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
     float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, ro, water, cookingoil; //Food consumption
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle;
@@ -11,64 +11,44 @@ int main(){
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* !Welcome to Yash Anand's Carbon Footprint Calculator! *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("Press 1 to continue.\n");
-    scanf("%d", &start);
+    printf("Press ENTER to continue"); while(getchar() != '\n');
 
-    printf("\nThis calcutor was created because the pre-existing sites & calculators appeared to have a limitation with their criterias for calculating carbon footprints.\n\n");
-    printf("Additionally, none of these calculators were OpenSource, which means that they would not allow the user to add/remove specific activities to/from the calculator's criterias\n\n");
-    printf("This lack of freedom to modify the criterias as per user's needs, would make the results incomplete and inaccurate.\n\n");
+    printf("\nThis calcutor was created because the pre-existing sites & calculators appeared to have a limitation with their criterias for calculating carbon footprints.\n");
+    printf("Additionally, none of these calculators were OpenSource, which means that they would not allow the user to add/remove specific activities to/from the calculator's criterias\n");
+    printf("This lack of freedom to modify the criterias as per user's needs, would make the results incomplete and inaccurate.\n");
     printf("Finally, this is how the creation of YACFC came into being - which is an Indian based Carbon Footprint Calculator that welcomes all to make modifications to help make it even better.\n\n");
 
-    printf("\nSo - are you ready to learn about your CO2/KG emissions? If so, Please press 1 to start!\n");
-    scanf("%d", &start);
+    printf("\nSo - are you ready to learn about your CO2/KG emissions?\n");
+    printf("Press ENTER to continue"); while(getchar() != '\n');
 
-    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 1: Domestic Consumption! Press 1 To start *\n");
-    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-
+    printf("\n* * * * * * * * * * * * * * * * * * * * *\n");
+    printf("* Round 1: Domestic Energy Consumption! *\n");
+    printf("* * * * * * * * * * * * * * * * * * * * *\n");
+    printf("Press ENTER to continue"); while(getchar() != '\n');
+    
     printf("\nQ1. Do you have access to Solar Energy?\nPress 1 for Yes & 0 for No.\n");
     scanf("%f", &solarenergy);
 
-    printf("\nQ2. How much ELECTRICITY do you use kWh/month?\n");
+    printf("\nQ2. How much AIR CONDITIONER do you use kWh/month?\n");
+    scanf("%f", &ac);
+    printf("The C02 Emmision of your consumption is %f Kg/Month\n", ac * 0.936);
+    
+    printf("\nQ3. How much ELECTRICITY do you use kWh/month?\n");
     scanf("%f", &Electricity);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", Electricity * 0.82);
 
-    printf("\nQ3. How many NEWSPAPERS do you buy unit/month?\n");
-    scanf("%f", &newspaper);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", newspaper * 0.21);
-    
-    printf("\nQ4. How many hours do you use your ac hour/month?\n");
-    scanf("%f", &ac);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", ac * 0.192);
-
-    printf("\nQ5. How many SOAPs do you buy unit/month?\n");
-    scanf("%f", &soap);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", soap * 0.11);
-
-    printf("\nQ6. How many hours do you use your LAPTOP hour/month?\n");
-    scanf("%f", &laptop);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", laptop * 0.088);
-    
-    printf("\nQ7. How much TV do you watch hour/month?\n");
+    printf("\nQ4. How much TV do you use kWh/month?\n");
     scanf("%f", &TV);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", TV * 0.0556);
+    printf("The C02 Emmision of your consumption is %f Kg/Month\n", TV * 0.3);
 
-    printf("\nQ8. How many hours do you keep your FRIDGE running hour/month?\n");
-    scanf("%f", &fridge);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", fridge * 0.088);
-
-    printf("\nQ9. How many hours do you keep your Water Heater/GEYSER running hour/month?\n");
-    scanf("%f", &geyser);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", geyser * 0.088);
-
-    printf("\n10. In order to find your digital footprints, tell your internet usage in hour/month\n");
+    printf("\nQ5. In order to find your digital footprints, tell your internet usage in hour/month\n");
     scanf("%f", &internet);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", internet * 0.006);
 
-    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 2: Resource Consumption! Press 1 To start! *\n");
-    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    scanf("%d", &start);
+    printf("\n* * * * * * * * * * * * * * * * *\n");
+    printf("* Round 2: Resource Consumption *\n");
+    printf("* * * * * * * * * * * * * * * * *\n");
+    printf("Press ENTER to continue"); while(getchar() != '\n');
     
     printf("\nQ6. How much gas/CNG do you consume from your Natural Gas Pipeline kWh/month?\n");
     scanf("%f", &NGP);
@@ -98,10 +78,10 @@ int main(){
     scanf("%f", &water);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", water * 0.011);
     
-    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 3: Food Consumption! Press 1 To start! *\n");
-    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    scanf("%d", &start);
+    printf("\n* * * * * * * * * * * * * * *\n");
+    printf("* Round 3: Food Consumption *\n");
+    printf("* * * * * * * * * * * * * * *\n");
+    printf("Press ENTER to continue"); while(getchar() != '\n');
 
     printf("\nQ13. How much beef do you consume kg/month?\n");
     scanf("%f", &beef);
@@ -147,10 +127,10 @@ int main(){
     scanf("%f", &cookingoil);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", cookingoil * 3.02);
 
-    printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    printf("* Round 4: Traveling! Press 1 To start! *\n");
-    printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    scanf("%d", &start);
+    printf("\n* * * * * * * * * * * *\n");
+    printf("* Round 4: Traveling! *\n");
+    printf("* * * * * * * * * * * *\n");
+    printf("Press enter to continue"); while(getchar() != '\n');
 
     printf("\nQ24. How much do you travel by motorcycle km/month?\n");
     scanf("%f", &motorcycle);
@@ -164,31 +144,30 @@ int main(){
     scanf("%f", &bus);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", bus * 0.09);
 
-    printf("\nQ27. How much do you travel by train km/month?\n");
+    printf("\nQ27. How much do you travel by train km/month? ");
     scanf("%f", &train);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", train * 0.04);
 
-    printf("\nQ28. How much do you travel by autorickshaw km/month?\n");
+    printf("\nQ28. How much do you travel by autorickshaw km/month? ");
     scanf("%f", &autorickshaw);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", autorickshaw*0.04);
 
-    printf("\nQ29. How much do you travel by car km/month?\n");
+    printf("\nQ29. How much do you travel by car km/month?: ");
     scanf("%f", &car);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", car * 0.15);
 
-    printf("\nQ30. Do you use bicycle from travelling in a month?\nPress 1 for Yes & 0 for No.\n");
+    printf("\nQ30. Do you use bicycle from travelling in a month?\nPress 1 for Yes & 0 for No: ");
     scanf("%f", &bicycle);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", bicycle * 0.125);
 
-    Electricity = (Electricity*0.82) - ((ac*0.245) + (TV*0.088) + (fridge*0.31) + (geyser*0.324));
-    CarbonFootprint = ((newspaper * 0.21) + (soap * 0.11) + (Electricity) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
+    Electricity = (Electricity * 0.82) - (ac * 0.936) + (TV * 0.00048);
+    CarbonFootprint = ((Electricity) +(internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
 
     printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
-    printf("Press 1 To Compare Your Result With India's Per Capita Carbon Footprint\n");
-    scanf("%d", &start);
+    printf("Press ENTER To Compare Your Result With India's Per Capita Carbon Footprint\n"); while(getchar() != '\n');
     printf("for comparison, India's per capita carbon footprint in 2021 was 1900 Kg per YEAR & your carbon footprint per year was %f\n", CarbonFootprint * 12);
 
-    printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n\nPress Any Number To Exit: ");
-    scanf("%d", &start);
+    printf("\n\nThank You For Using Yash Anand's Carbon Footprint Calculator!\n");
+    printf("Press ENTER to exit"); while(getchar() != '\n');
     return 0;
 }
