@@ -2,7 +2,7 @@
 
 int main(){
     int FamMem, start;
-    float ac, Electricity, TV, internet, solarenergy;                                            //Domestic electricity related consumption
+    float newspaper, Electricity, TV, internet, solarenergy;                                            //Domestic electricity related consumption
     float NGP, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
     float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, ro, water, cookingoil; //Food consumption
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle;
@@ -25,14 +25,13 @@ int main(){
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
     printf("* Round 1: Domestic Energy Consumption! Press 1 To start *\n");
     printf("* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
-    scanf("%d", &start);
-    
+
     printf("\nQ1. Do you have access to Solar Energy?\nPress 1 for Yes & 0 for No.\n");
     scanf("%f", &solarenergy);
 
-    printf("\nQ2. How much AIR CONDITIONER do you use kWh/month?\n");
-    scanf("%f", &ac);
-    printf("The C02 Emmision of your consumption is %f Kg/Month\n", ac * 0.936);
+    printf("\nQ2. How many NEWSPAPERS do you buy unit/month?\n");
+    scanf("%f", &newspaper);
+    printf("The C02 Emmision of your consumption is %f Kg/Month\n", newspaper * 0.21);
     
     printf("\nQ3. How much ELECTRICITY do you use kWh/month?\n");
     scanf("%f", &Electricity);
@@ -161,7 +160,7 @@ int main(){
     scanf("%f", &bicycle);
     printf("The C02 Emmision of your consumption is %f Kg/Month\n", bicycle * 0.125);
 
-    CarbonFootprint = ((ac * 0.936) + (Electricity * 0.82) + (TV * 0.00048) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
+    CarbonFootprint = ((newspaper * 0.21) + (Electricity * 0.82) + (TV * 0.00048) + (internet * 0.0006) + (solarenergy * 0) + (NGP * 0.2) + (petrol * 2.33) + (LPG * 1.5) + (diesel * 2.68) + (LPGVEHC*3.06) + (coal*2750) + (beef*27) + (chicken * 6.9) + (egg * 0.9) + fish * 3.3 + (mutton*39.2) + (pork*7.6) + (veg*0.5) + (milk*0.91) + (foodwastage*0.61) + (ro*0.72) + (water*0.011) + (cookingoil * 3.02) + (motorcycle*0.08) + (aeroplane*0.184) + (bus*0.09) + (train*0.04) + (autorickshaw*0.04) + (car*0.15) + (bicycle*0.125));
 
     printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
     printf("Press 1 To Compare Your Result With India's Per Capita Carbon Footprint\n");
