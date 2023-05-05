@@ -24,7 +24,7 @@ Simple steps for using the calculators
 
 ## Author
 * Yash Anand  
-* Currently working as a 'Linux Intern'
+* Currently working as a Linux Intern
 * [LinkedIn](https://www.linkedin.com/in/anand11yash/)
 
 ## License
