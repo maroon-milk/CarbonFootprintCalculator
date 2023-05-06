@@ -4,7 +4,7 @@ int main(){
     
     float ac, newspaper, soap, Electricity, TV, geyser, fridge, laptop, cocacola, solarenergy;   //Domestic related consumption
     float NGP, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
-    float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, ro, water, cookingoil; //Food consumption
+    float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, water, cookingoil; //Food consumption
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle, CarbonFootprint;
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
@@ -13,10 +13,10 @@ int main(){
     printf("Press enter to continue");
     getchar();
 
-    printf("\nThis calcutor was created because the pre-existing sites & calculators appeared to have a limitation with their criterias for calculating carbon footprints.\n\n");
+    printf("\nThis calculator was created as the pre-existing Carbon Footprint calculators appeared to have a limitation with their criterias in their calculations.\n\n");
     printf("Additionally, none of these calculators were OpenSource, which means that they would not allow the user to add/remove specific activities to/from the calculator's criterias\n\n");
     printf("This lack of freedom to modify the criterias as per user's needs, would make the results incomplete and inaccurate.\n\n");
-    printf("This is how the creation of this Carbon Footprint Calculator that welcomes all to make modifications to help make it even better - came into being.\n");
+    printf("This is how the creation of this Carbon Footprint Calculator came into being where we welcome all to make modifications to help make it even better.\n");
 
     printf("\nAre you ready to calculate your Carbon Footprints?\n");
     printf("Press enter to continue");
