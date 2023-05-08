@@ -28,11 +28,11 @@ int main(){
     printf("Press enter to continue");
     getchar();
 
-    printf("\nQ01. How much AIR CONDITIONER do you use kWh/month?\n");
+    printf("\nQ01. How much AIR CONDITIONER do you use kWh/month?\n(On average, a home air conditioner can use about 3 kWh of electricity an hour.\n");
     scanf("%f", &ac);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", ac * 0.241);
     
-    printf("\nQ02. How much in kWh/month is your ELECTRICITY BILL?\n");
+    printf("\nQ02. How much in kWh/month is your ELECTRICITY consumption?\n");
     scanf("%f", &Electricity);
     printf("Your C02e Emmision of your consumption is %f Kg/Month\n", Electricity * 0.82);
 
