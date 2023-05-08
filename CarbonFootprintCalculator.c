@@ -36,7 +36,7 @@ int main(){
     scanf("%f", &Electricity);
     printf("Your C02e Emmision of your consumption is %f Kg/Month\n", Electricity * 0.82);
 
-    printf("\nQ03. How much TV do you use kWh/month?\n");
+    printf("\nQ03. How much TV do you use kWh/month?\n(Most TVs use 0.08 to 0.4 kWh/Hour");
     scanf("%f", &TV);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", TV * 0.088);
 
