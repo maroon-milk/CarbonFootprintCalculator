@@ -3,7 +3,7 @@
 int main(){
     
     float ac, Electricity, TV, cocacola, solarenergy;   //Domestic related consumption
-    float cng, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
+    float CNG, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
     float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, water, cookingoil; //Food consumption
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle, CarbonFootprint;
 
@@ -122,7 +122,7 @@ int main(){
 
     printf("\nQ21. How much COCA-COLA do you consume Litres/Month\n");
     scanf("%f", &cocacola);
-    printf("The C02e Emmision of your consumption is %f Kg/Month\n", cocacola */ 0.17);
+    printf("The C02e Emmision of your consumption is %f Kg/Month\n", cocacola * 0.17);
 
     printf("\nQ22. How much COOKING OIL do you consume Litres/Month?\n");
     scanf("%f", &cookingoil);
