@@ -120,11 +120,11 @@ int main(){
     scanf("%f", &foodwastage);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", foodwastage * 2.5);
 
-    printf("\nQ21. How much COCA-COLA do you consume Lts/Month\n");
+    printf("\nQ21. How much COCA-COLA do you consume Litres/Month\n");
     scanf("%f", &cocacola);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", cocacola */ 0.17);
 
-    printf("\nQ22. How much COOKING OIL do you consume Lts/Month?\n");
+    printf("\nQ22. How much COOKING OIL do you consume Litres/Month?\n");
     scanf("%f", &cookingoil);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", cookingoil * 3.81);
 
