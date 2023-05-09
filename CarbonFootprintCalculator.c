@@ -28,7 +28,7 @@ int main(){
     printf("Press enter to continue");
     getchar();
 
-    printf("\nQ01. How much AIR CONDITIONER do you use kWh/month?\n(On average, a home air conditioner can use about 3 kWh of electricity an hour.\n");
+    printf("\nQ01. How much AIR CONDITIONER do you use kWh/month?\n(As a general rule, an AC of 1 ton uses 1 kWh, 2 ton uses 2 kWh, 3 ton uses 3 kWh of electricity per hour.\n");
     scanf("%f", &ac);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", ac * 0.241);
     
@@ -165,7 +165,7 @@ int main(){
     
     CarbonFootprint = ((Electricity*0.82) + (water*0.298) + (ac * 0.241) + (TV * 0.088) + (LPG*3.0) + (cocacola * 0.17) + (solarenergy * 0.041) + (CNG * 0.144) + (petrol * 2.3) + (diesel * 2.6) + (LPGVEHC*3.06) + (coal*2500000) + (beef*27) + (chicken * 6.9) + (egg * 4.8) + (fish * 1.34) + (mutton*39.2) + (pork*12.1) + (veg*2) + (milk*0.91) + (foodwastage*2.5) + (cookingoil * 3.81) + (motorcycle*0.08) + (aeroplane*0.146) + (bus*0.103) + (train*0.10) + (autorickshaw*0.05) + (car*0.31) + (bicycle*0.0205052));
 
-    printf("\nYour carbon footprint is %f kg per month.\n", CarbonFootprint);
+    printf("\nYour carbon footprint is %f Kg per Month.\n", CarbonFootprint);
     printf("Press ENTER To Compare Your Result With India's Per Capita Carbon Footprint\n");
     getchar();
     printf("For comparison, India's per capita carbon footprint in 2021 was 1900 Kg per YEAR & your carbon footprint per year was %f\n", CarbonFootprint * 12);
