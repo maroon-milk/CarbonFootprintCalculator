@@ -14,12 +14,12 @@ int main(){
     printf("Press enter to continue");
     getchar();
 
-    printf("\nThis calculator was created as the pre-existing Carbon Footprint calculators appeared to have a limitation with their criteria in their calculations.\n");
-    printf("Additionally, none of these calculators were OpenSource, which means that they would not allow the user to add/remove specific activities to/from the calculator's criteria\n");
+    printf("\nThis calculator was created as the pre-existing Carbon Footprint calculators\nappeared to havea limitation with their criteria in their calculations.\n");
+    printf("Additionally, none of these calculators were OpenSource, which means that they would not allow\nthe user to add/remove specific activities to/from the calculator's criteria\n");
     printf("This lack of freedom to modify the criteria as per user's needs, would make the results incomplete and inaccurate.\n");
-    printf("This is how the creation of this Carbon Footprint Calculator came into being where we welcome all to make positive modifications to help make it even better.\n");
+    printf("This is how the creation of this Carbon Footprint Calculator came into being where we\nwelcome all to make positive modifications to help make it even better.\n");
 
-    printf("\nAre you ready to calculate your Carbon Footprints?\n");
+    printf("\nLet's find your Carbon Footprint!\n");
     printf("Press enter to continue");
     getchar();
 
