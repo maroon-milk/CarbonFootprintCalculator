@@ -92,7 +92,7 @@ int main(){
     scanf("%f", &chicken);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", chicken * 9.87);
 
-    printf("\nQ14. How many EGGS do you consume Kg/Month?\n(1Kg = 20 Eggs)\n");
+    printf("\nQ14. How many EGGS do you consume Kg/Month?\n(1 eggs = 0.055Kg)\n");
     scanf("%f", &egg);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", egg * 4.8);
 
