@@ -2,10 +2,10 @@
 
 int main(){
     
-    float a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, z1, z2, z3, z4, z5, z6;
-    float ac, Electricity, TV, cocacola, solarenergy;   //Domestic related consumption
-    float CNG, LPG, diesel, petrol, LPGVEHC, coal;                                               //Resource consumption
-    float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, water, cookingoil; //Food consumption
+    float a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, z1, z2, z3;
+    float ac, Electricity, TV, cocacola, solarenergy;   
+    float CNG, LPG, diesel, petrol, LPGVEHC, coal;                                              
+    float beef, chicken, egg, fish, mutton, pork, veg, milk, foodwastage, water, cookingoil;
     float motorcycle, aeroplane, bus, train, autorickshaw, car, bicycle, CarbonFootprint;
 
     printf("\n* * * * * * * * * * * * * * * * * * * * * * * * * * * * *\n");
