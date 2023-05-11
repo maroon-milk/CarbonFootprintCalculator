@@ -223,7 +223,11 @@ int main(){
     scanf("%f", &z3);
     printf("The C02e Emmision of your consumption is %f Kg/Month\n", bicycle * 0.021 / z3);    
     
-    CarbonFootprint = ((Electricity*0.72 / a) + (water*0.000298) + (ac * 0.241) + (TV * 0.088) + (LPG*3.0) + (cocacola * 0.51) + (solarenergy * 0.041) + (CNG * 0.144) + (petrol * 2.297) + (diesel * 2.6) + (LPGVEHC*3.06) + (coal*2.52) + (beef*27) + (chicken * 9.87) + (egg * 4.8) + (fish * 1.34) + (mutton*39.72) + (pork*12.1) + (veg*2) + (milk*0.91) + (foodwastage*2.5) + (cookingoil * 3.81) + (motorcycle*0.113) + (aeroplane*0.146) + (bus*0.103) + (train*0.37) + (autorickshaw*0.05) + (car*0.111) + (bicycle*0.021));
+    CarbonFootprint = ((Electricity * 0.72 / b) + (water * 0.000298 / k) + (ac * 0.241 / a) + (TV * 0.088 / c) +_
+    (LPG*3.0 / g) + (cocacola * 0.51 / v) + (solarenergy * 0.041 / d) + (CNG * 0.144 / e) + (petrol * 2.297 / f) + (diesel * 2.6 / h) +_
+    (LPGVEHC * 3.06 / i) + (coal * 2.52 / j) + (beef * 27 / l) + (chicken * 9.87 / n) + (egg * 4.8 / o) + (fish * 1.34 / p) + (mutton * 39.72 / q) +_
+    (pork * 12.1 / r) + (veg * 2 / s) + (milk * 0.91 / t) + (foodwastage * 2.5 / u) + (cookingoil * 3.81 / z5) + (motorcycle * 0.113 / w) +_
+    (aeroplane * 0.146 / x) + (bus * 0.103 / y) + (train * 0.37 / z) + (autorickshaw * 0.05 / z1) + (car * 0.111 / z2) + (bicycle * 0.021 / z3));
 
     printf("\nYour carbon footprint is %f Kg per Month.\n", CarbonFootprint);
     printf("For comparison, India's per capita carbon footprint in 2021 was 1900 Kg per YEAR & your carbon footprint per year was %f\n", CarbonFootprint * 12);
